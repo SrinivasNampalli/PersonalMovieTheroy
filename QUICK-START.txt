@@ -1,0 +1,73 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║          ACCESSIBLE AUTO-COMMIT - QUICK START             ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+THREE SIMPLE FILES - JUST DOUBLE-CLICK:
+
+
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│  1. START-AUTO-COMMIT.bat                                 │
+│                                                           │
+│     Double-click this to start auto-committing           │
+│     Leave it running while you code                      │
+│     Press Ctrl+C when done                               │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
+
+
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│  2. COMMIT-NOW.bat                                        │
+│                                                           │
+│     Double-click this to commit immediately              │
+│     No waiting - commits right now                       │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
+
+
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│  3. TEST-AUTO-COMMIT.bat                                  │
+│                                                           │
+│     Double-click this to test (checks every 1 minute)    │
+│     Make sure it works before using normal mode          │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════
+
+
+THAT'S IT!
+
+
+No typing needed.
+Just double-click and code.
+
+
+═══════════════════════════════════════════════════════════
+
+
+TYPICAL WORKFLOW:
+
+1. Sit down to code
+2. Double-click START-AUTO-COMMIT.bat
+3. Code normally for hours
+4. Every 30 minutes it commits your work
+5. Press Ctrl+C when done
+6. All your work is saved!
+
+
+═══════════════════════════════════════════════════════════
+
+
+NEED MORE INFO?
+
+Read: AUTO-COMMIT-README.md
+
+
+═══════════════════════════════════════════════════════════

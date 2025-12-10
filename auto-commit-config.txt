@@ -1,0 +1,41 @@
+========================================
+AUTO-COMMIT CONFIGURATION
+========================================
+
+EASY SETTINGS - Just change the numbers!
+
+----------------------------------------
+HOW OFTEN TO CHECK FOR CHANGES
+----------------------------------------
+
+Current setting: 30 minutes
+
+To change:
+1. Open auto-commit.js in notepad
+2. Find line that says: checkInterval: 30,
+3. Change 30 to your preferred minutes
+4. Save file
+
+Recommended: 20-45 minutes
+
+----------------------------------------
+WHAT FILES TO COMMIT
+----------------------------------------
+
+Currently commits: All files you change
+
+The tool automatically ignores:
+- node_modules folder
+- .git folder
+- package-lock.json
+
+----------------------------------------
+NEED HELP?
+----------------------------------------
+
+See: AUTO-COMMIT-README.md
+
+Or just double-click START-AUTO-COMMIT.bat
+and start coding!
+
+========================================
