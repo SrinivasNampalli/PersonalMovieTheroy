@@ -162,7 +162,19 @@ const commitChanges = (message) => {
                 } else {
                     console.log('✅ Changes committed successfully!');
                     console.log(stdout);
-                    resolve(true);
+
+                    // Push to GitHub so teammates can see your progress!
+                    console.log('📤 Pushing your hard work to GitHub...');
+                    exec('git push origin main', (pushError, pushStdout, pushStderr) => {
+                        if (pushError) {
+                            console.log('⚠️  Could not push to GitHub:', pushStderr);
+                            console.log('💡 Your commit is saved locally - will retry next time');
+                            resolve(true);
+                        } else {
+                            console.log('✅ Pushed to GitHub! Your team can see your dedication! 🚀');
+                            resolve(true);
+                        }
+                    });
                 }
             });
         });

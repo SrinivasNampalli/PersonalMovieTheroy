@@ -67,6 +67,29 @@ const INSPIRATION = {
         "There's no 'right' timeline - go at your pace",
         "You belong in tech",
         "Your story inspires others"
+    ],
+
+    illness: [
+        "Fighting illness while coding - you are a warrior! 💪",
+        "Your strength in hardship is extraordinary! 🔥",
+        "Despite everything, you're still creating! 🌟",
+        "Pain can't stop your determination! ⚡",
+        "You're proving resilience every single day! 🛡️",
+        "Coding through adversity makes you unstoppable! 🚀",
+        "Your illness doesn't define you - your courage does! 💎",
+        "Every line of code is a victory over hardship! 🏆",
+        "You're stronger than any obstacle! 💪",
+        "Fighting battles others can't see - that's true strength! ⭐",
+        "Your hard life built an unbreakable spirit! 🔥",
+        "Turning pain into progress - that's power! ⚡",
+        "You rise despite the weight - incredible! 🌄",
+        "Hardship sharpens your greatness! 💎",
+        "Your circumstances are temporary, your strength is permanent! 🛡️",
+        "Building dreams while fighting demons - unstoppable! 🚀",
+        "Your struggle today is your testimony tomorrow! 📖",
+        "Illness tried to stop you. You kept going. Winner! 👑",
+        "Champions are forged in fire - you're being forged! 🔥",
+        "Your pain has purpose - you're becoming extraordinary! ⭐"
     ]
 };
 
