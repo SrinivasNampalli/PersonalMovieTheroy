@@ -1,0 +1,195 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║           EXACT COMMANDS - COPY AND PASTE                 ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+WHERE TO TYPE COMMANDS:
+═══════════════════════════════════════════════════════════
+
+Option 1: Windows Command Prompt
+  1. Press Windows Key
+  2. Type: cmd
+  3. Press Enter
+  4. Type: cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+  5. Press Enter
+
+Option 2: Windows PowerShell
+  1. Press Windows Key
+  2. Type: powershell
+  3. Press Enter
+  4. Type: cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+  5. Press Enter
+
+Option 3: VS Code Terminal (if you use VS Code)
+  1. Open VS Code
+  2. Press Ctrl + `
+  3. Type: cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+  4. Press Enter
+
+
+═══════════════════════════════════════════════════════════
+COMMAND #1: COMMIT YOUR WORK RIGHT NOW
+═══════════════════════════════════════════════════════════
+
+Copy and paste this:
+
+node commit-now.js
+
+Press Enter
+
+WHAT HAPPENS:
+  ✅ Finds all your changed files
+  ✅ Commits them to git
+  ✅ Shows "SUCCESS!"
+
+
+═══════════════════════════════════════════════════════════
+COMMAND #2: START AUTO-COMMIT (Runs every 30 minutes)
+═══════════════════════════════════════════════════════════
+
+Copy and paste this:
+
+node auto-commit.js
+
+Press Enter
+
+WHAT HAPPENS:
+  ✅ Starts watching for changes
+  ✅ Every 30 minutes, commits your work
+  ✅ Leave this running while you code
+
+TO STOP:
+  Press Ctrl + C
+
+
+═══════════════════════════════════════════════════════════
+COMMAND #3: ADD INSPIRATION TO YOUR CODE
+═══════════════════════════════════════════════════════════
+
+Copy and paste this:
+
+node inspiration-boost.js add 1
+
+Press Enter
+
+WHAT HAPPENS:
+  ✅ Finds your code files
+  ✅ Adds one motivational comment
+  ✅ Shows which file was updated
+
+
+═══════════════════════════════════════════════════════════
+COMMAND #4: SHOW MOTIVATIONAL MESSAGE
+═══════════════════════════════════════════════════════════
+
+Copy and paste this:
+
+node inspiration-boost.js message
+
+Press Enter
+
+WHAT HAPPENS:
+  ✅ Shows you an encouraging message
+  ✅ Doesn't change any files
+
+
+═══════════════════════════════════════════════════════════
+COMPLETE STEP-BY-STEP EXAMPLE
+═══════════════════════════════════════════════════════════
+
+1. Open Command Prompt (Windows Key, type "cmd", press Enter)
+
+2. Copy and paste this entire line:
+   cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+3. Press Enter
+
+4. Copy and paste this:
+   node commit-now.js
+
+5. Press Enter
+
+6. YOU'RE DONE! Your work is committed!
+
+
+═══════════════════════════════════════════════════════════
+FOR AUTO-COMMIT (30 MINUTE INTERVALS)
+═══════════════════════════════════════════════════════════
+
+1. Open Command Prompt
+
+2. Copy and paste:
+   cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+3. Press Enter
+
+4. Copy and paste:
+   node auto-commit.js
+
+5. Press Enter
+
+6. LEAVE THIS WINDOW OPEN while you code
+
+7. Every 30 minutes it will commit automatically
+
+8. When done coding, press Ctrl + C to stop
+
+
+═══════════════════════════════════════════════════════════
+EVEN EASIER - JUST DOUBLE-CLICK FILES
+═══════════════════════════════════════════════════════════
+
+You don't need to type anything!
+
+In Windows Explorer, go to:
+C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+Then double-click these files:
+
+  COMMIT-NOW.bat           → Commits immediately
+  START-AUTO-COMMIT.bat    → Starts auto-commit
+  GET-INSPIRED.bat         → Adds motivation
+  SHOW-MOTIVATION.bat      → Shows messages
+
+
+═══════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════
+
+If you get "node is not recognized":
+  → Install Node.js from nodejs.org
+  → Restart your computer
+  → Try again
+
+If you get "not a git repository":
+  → Type: git init
+  → Press Enter
+  → Try the commit command again
+
+
+═══════════════════════════════════════════════════════════
+QUICK REFERENCE
+═══════════════════════════════════════════════════════════
+
+Go to folder:
+  cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+Commit now:
+  node commit-now.js
+
+Auto-commit (30 min):
+  node auto-commit.js
+
+Add inspiration:
+  node inspiration-boost.js add 1
+
+Show message:
+  node inspiration-boost.js message
+
+Stop auto-commit:
+  Ctrl + C
+
+
+═══════════════════════════════════════════════════════════

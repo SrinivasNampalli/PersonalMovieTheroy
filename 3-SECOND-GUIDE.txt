@@ -1,0 +1,61 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║                   ⚡ 3 SECOND GUIDE ⚡                      ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+METHOD 1: DOUBLE-CLICK (EASIEST!)
+═══════════════════════════════════════════════════════════
+
+1. Open this folder in Windows Explorer:
+   C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+2. Double-click this file:
+   COMMIT-NOW.bat
+
+3. Press any key
+
+4. DONE! ✅
+
+
+METHOD 2: COPY/PASTE ONE LINE
+═══════════════════════════════════════════════════════════
+
+1. Press Windows Key
+2. Type: cmd
+3. Press Enter
+4. Copy and paste this ONE LINE:
+
+cd C:\Users\srini\sriniprojects\PersonalMovieTheroy && node commit-now.js
+
+5. Press Enter
+6. DONE! ✅
+
+
+METHOD 3: TWO COMMANDS
+═══════════════════════════════════════════════════════════
+
+Open cmd, then copy/paste these two lines:
+
+Line 1:
+cd C:\Users\srini\sriniprojects\PersonalMovieTheroy
+
+Line 2:
+node commit-now.js
+
+
+THAT'S IT!
+═══════════════════════════════════════════════════════════
+
+
+FOR AUTO-COMMIT (Every 30 minutes):
+═══════════════════════════════════════════════════════════
+
+Double-click: START-AUTO-COMMIT.bat
+
+OR type:
+cd C:\Users\srini\sriniprojects\PersonalMovieTheroy && node auto-commit.js
+
+
+═══════════════════════════════════════════════════════════
