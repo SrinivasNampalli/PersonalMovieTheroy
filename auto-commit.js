@@ -19,7 +19,7 @@ const { exec } = require('child_process');
 // ============================================
 const CONFIG = {
     // How often to check for changes (in minutes)
-    checkInterval: 30,
+    checkInterval: 5,
 
     // Automatically commit when changes detected?
     autoCommit: true,
