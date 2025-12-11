@@ -126,7 +126,7 @@ Auto-generated motivation message
 
 🤖 Auto-Inspiration Tool`;
 
-        exec('git add MY-INSPIRATION.md', (error) => {
+        exec('git add MY-INSPIRATION.md work.py', (error) => {
             if (error) {
                 console.log('⚠️  Could not stage file');
                 resolve(false);
