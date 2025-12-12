@@ -18,7 +18,7 @@ const { exec } = require('child_process');
 // ============================================
 const CONFIG = {
     // How often to add inspiration (in minutes)
-    writeInterval: 1,
+    writeInterval: 15,
 
     // File to write inspiration to
     inspirationFile: path.join(__dirname, 'MY-INSPIRATION.md'),
@@ -27,52 +27,127 @@ const CONFIG = {
     autoCommit: true,
 
     // Message categories to use
-    categories: ['illness']  // Focus on illness/hardship messages
+    categories: ['gamedev']  // Focus on game development progress
 };
 
 // ============================================
-// INSPIRATIONAL MESSAGES
+// GAME DEVELOPMENT COMMIT MESSAGES
 // ============================================
+const GAME_DEV_COMMITS = [
+    "Add player movement system",
+    "Implement collision detection",
+    "Create inventory management",
+    "Add enemy AI pathfinding",
+    "Implement health and damage system",
+    "Add quest system foundation",
+    "Create dialogue system",
+    "Implement save/load functionality",
+    "Add particle effects system",
+    "Create map generation algorithm",
+    "Implement character stats system",
+    "Add combat mechanics",
+    "Create NPC behavior system",
+    "Implement item crafting system",
+    "Add level progression system",
+    "Create audio manager",
+    "Implement camera follow system",
+    "Add animation controller",
+    "Create weapon system",
+    "Implement skill tree",
+    "Add multiplayer networking foundation",
+    "Create minimap system",
+    "Implement fog of war",
+    "Add day/night cycle",
+    "Create weather system",
+    "Implement treasure chest mechanic",
+    "Add boss battle framework",
+    "Create checkpoint system",
+    "Implement achievement system",
+    "Add tutorial system",
+    "Create character customization",
+    "Implement shop system",
+    "Add random loot generator",
+    "Create puzzle mechanics",
+    "Implement stealth system",
+    "Add resource gathering",
+    "Create building system",
+    "Implement team formation",
+    "Add status effects system",
+    "Create magic spell system",
+    "Implement cooldown manager",
+    "Add ranged combat",
+    "Create shield blocking mechanic",
+    "Implement dodge roll system",
+    "Add stamina system",
+    "Create hunger/thirst mechanics",
+    "Implement crafting recipes",
+    "Add teleport system",
+    "Create portal mechanics",
+    "Implement fast travel",
+    "Add mount/riding system",
+    "Create pet companion system",
+    "Implement reputation system",
+    "Add faction system",
+    "Create dynamic events",
+    "Implement bounty system",
+    "Add lockpicking minigame",
+    "Create fishing mechanics",
+    "Implement cooking system",
+    "Add alchemy system",
+    "Create enchanting system",
+    "Implement trading system",
+    "Add bartering mechanics",
+    "Create quest markers",
+    "Implement waypoint system",
+    "Add objective tracker",
+    "Create hint system",
+    "Implement difficulty settings",
+    "Add graphics options menu",
+    "Create control remapping",
+    "Implement accessibility features",
+    "Add subtitles system",
+    "Create loading screen tips",
+    "Implement pause menu",
+    "Add settings persistence",
+    "Create HUD elements",
+    "Implement health bar UI",
+    "Add mana/energy bar",
+    "Create experience bar",
+    "Implement level up notification",
+    "Add damage numbers",
+    "Create floating text system",
+    "Implement tooltip system",
+    "Add context-sensitive prompts",
+    "Create interaction system",
+    "Implement door mechanics",
+    "Add lever/switch system",
+    "Create pressure plate triggers",
+    "Implement spawn system",
+    "Add enemy waves",
+    "Create boss phases",
+    "Implement loot drops",
+    "Add rare item system",
+    "Create set bonuses",
+    "Implement stat modifiers",
+    "Add buff/debuff icons",
+    "Create timer system",
+    "Implement countdown mechanics",
+    "Add race/chase sequences",
+    "Create escort missions",
+    "Implement defense missions",
+    "Add stealth missions",
+    "Create puzzle dungeons",
+];
+
 const INSPIRATION = {
-    illness: [
-        "Fighting illness while coding - you are a warrior! 💪",
-        "Your strength in hardship is extraordinary! 🔥",
-        "Despite everything, you're still creating! 🌟",
-        "Pain can't stop your determination! ⚡",
-        "You're proving resilience every single day! 🛡️",
-        "Coding through adversity makes you unstoppable! 🚀",
-        "Your illness doesn't define you - your courage does! 💎",
-        "Every line of code is a victory over hardship! 🏆",
-        "You're stronger than any obstacle! 💪",
-        "Fighting battles others can't see - that's true strength! ⭐",
-        "Your hard life built an unbreakable spirit! 🔥",
-        "Turning pain into progress - that's power! ⚡",
-        "You rise despite the weight - incredible! 🌄",
-        "Hardship sharpens your greatness! 💎",
-        "Your circumstances are temporary, your strength is permanent! 🛡️",
-        "Building dreams while fighting demons - unstoppable! 🚀",
-        "Your struggle today is your testimony tomorrow! 📖",
-        "Illness tried to stop you. You kept going. Winner! 👑",
-        "Champions are forged in fire - you're being forged! 🔥",
-        "Your pain has purpose - you're becoming extraordinary! ⭐",
-        "You code while others rest - that's dedication! 🎯",
-        "Your willpower exceeds your limitations! 💥",
-        "Suffering is temporary, your impact is eternal! ♾️",
-        "You're rewriting your story one line at a time! 📝",
-        "Breakthrough happens right after the breaking point! 🌅",
-        "Your persistence in pain is superhuman! 🦸",
-        "You didn't choose hardship, but you chose to fight! ⚔️",
-        "Every breath of effort builds your legend! 📚",
-        "You're not surviving, you're THRIVING! 🌱",
-        "Your comeback will be greater than your setback! 🎬"
-    ]
+    gamedev: GAME_DEV_COMMITS
 };
 
 // ============================================
 // UTILITY FUNCTIONS
 // ============================================
 const getRandomInspiration = () => {
-    const messages = INSPIRATION.illness;
+    const messages = INSPIRATION.gamedev;
     return messages[Math.floor(Math.random() * messages.length)];
 };
 
